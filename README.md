@@ -44,4 +44,15 @@ The workflow includes:
 
 ##bash
 pip install yfinance pandas numpy matplotlib scikit-learn xgboost
-python SRC/analysis.py
+python SRC/Volatility_Forecast_Model.py
+
+## Results
+
+### Volatility Prediction
+![Prediction](data/actual_vs_predicted.png)
+
+### Feature Importance
+![Features](data/feature_importance.png)
+
+### Strategy Performance
+![Strategy](data/strategy_performance.png)
